@@ -16,3 +16,5 @@ steps:
         "push",
         "us-west1-docker.pkg.dev/microservices-445003/image-registry/auth-ms-prod",
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
